@@ -241,7 +241,7 @@ class Connection(BaseConnection):
         # Execute query
         # TODO: check if user has access to RFC "/BODS/RFC_READ_TABLE" or "/BODS/RFC_READ_TABLE2"
         RFCs = [
-            "BBP_RFC__READ_TABLE",
+            "BBP_RFC_READ_TABLE",
             "RFC_READ_TABLE",
         ]
         rfc = RFCs[0]
